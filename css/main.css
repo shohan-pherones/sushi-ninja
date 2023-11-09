@@ -103,3 +103,24 @@ section {
   height: 100%;
   object-fit: cover;
 }
+
+.features {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), transparent),
+    url(../assets/images/slider-image-1.jpg);
+}
+
+.features-icon {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  color: white;
+  margin: 0 auto;
+}
+
+.features-icon > svg {
+  height: 2rem;
+}
