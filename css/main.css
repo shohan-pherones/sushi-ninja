@@ -1,0 +1,49 @@
+/* GOOGLE FONT */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+/* BASE STYLES */
+body {
+  font-family: "Rubik", sans-serif;
+  color: #777;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #222;
+}
+
+a {
+  font-weight: 600;
+  color: #222;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: orangered !important;
+}
+
+/* BUTTON */
+.btn {
+  border-radius: 100px;
+  padding: 1rem 2rem;
+}
+
+.btn-custom {
+  border-color: orangered;
+  background-color: orangered;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-custom:hover {
+  background-color: orange;
+  border-color: orange;
+  color: #fff !important;
+}
