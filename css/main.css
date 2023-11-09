@@ -29,6 +29,10 @@ a:hover {
   color: orangered !important;
 }
 
+section {
+  padding: 5rem 0;
+}
+
 /* BUTTON */
 .btn {
   border-radius: 100px;
@@ -68,4 +72,16 @@ a:hover {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.about-img {
+  border-radius: 100px 0 100px 0;
+}
+
+.orange-line {
+  background-color: orangered;
+  height: 2px;
+  width: 5rem;
+  display: inline-block;
+  margin-bottom: 1rem;
 }
